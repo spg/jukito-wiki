@@ -9,7 +9,7 @@
 * Add inner class like  public static class A extends JukitoModule
  if you would like to install custom Guice modules or use @UseModules annotation
 
-# Exmaples
+# Examples
 * Ultra easy test - first shot - link
 * @UseModules - link
 * Installing custom modules - link
