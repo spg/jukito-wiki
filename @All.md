@@ -1,4 +1,4 @@
-= \@All
+# \@All
 
 The @All annotation is a powerful feature of Jukito which allows to execute the same test multiple times with a different input in each execution.
 Typical examples for this are:
@@ -29,7 +29,7 @@ Behind the scene Jukito looks for the @All annotation. When such an annotation i
 Finally it will call the test for every bound input executing it multiple times.
 
 
-== Testing different implementations of an interface
+## Testing different implementations of an interface
 The @All annotation can also be used to test different implementations of the same interface or different subclasses of an (abstract) super class.
 In this case the types are bound directly instead of concrete instances.
 
@@ -51,7 +51,7 @@ public class SimpleAllTest {
 The above example will print either "Impl1 Impl2" or "Impl2 Impl1".
 
 
-== The Cartesian Product
+## The Cartesian Product
 Tests are not limited to a single parameter. It is possible to annotated more than one parameter with the @All annotation. In this case Jukito will form the Cartesian product of all inputs to the test.
 
 ```java
@@ -70,12 +70,12 @@ public class CartesianProductAllTest {
 }
 ```
 
-The above example will print the four strings "a1", "a2", "b1", and "b2". The order of them is not guaranteed.
-Warning: the number of test executions increases dramatically for Cartesian products. The execution time of all tests will grow linear with the number of executions.
-i:e.: a test with three parameters with an @All annotation an 4 bindings per parameter will be executed 4x4x4 = 64 times.
+The above example will print the four strings "a1", "a2", "b1", and "b2". The order of them is not guaranteed.  
+**Warning**: the number of test executions increases dramatically for Cartesian products. The execution time of all tests will grow linear with the number of executions.
+i:e.: a test method with three parameters with an @All annotation and four bindings per parameter will be executed 4x4x4 = 64 times. Having five bindings for the same test method will lead to 5x5x5 = 125 executions.
 
 
-== Grouping by names
+## Grouping by names
 Sometimes it is desirable to have different groups of bindings of the same class to be used within the same test. Jukito supports this by using a name to identify to which group a binding belongs and which group should be used for executing a test.
 
 ```java
