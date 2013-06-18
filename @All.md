@@ -64,7 +64,7 @@ public class CartesianProductAllTest {
         }
     }
 
-    @Test print(@All String s, Integer i) {
+    @Test print(@All String s, @All Integer i) {
         System.out.println(s + i);
     }
 }
