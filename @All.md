@@ -1,5 +1,3 @@
-# @All
-
 The @All annotation is a powerful feature of Jukito which allows to execute the same test multiple times with a different input in each execution.
 Typical examples for this are:
 * having a test executed with all values of an enum.
