@@ -8,7 +8,7 @@ Jukito is released on Maven central. If you use Maven you can configure add this
 </dependency>
 ```
 
-Replace ${jukito.version} with the current version of Jukito, which you should find on the [main page](https://github.com/ArcBees/Jukito).
+Replace `${jukito.version}` with the current version of Jukito, which you should find on the [main page](https://github.com/ArcBees/Jukito).
 
 If you want to use a jukito SNAPSHOT you will have to include sonatype's repository in your POM:
 ```
