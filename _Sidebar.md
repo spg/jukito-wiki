@@ -3,3 +3,4 @@
 [[Maven]]<br/>
 [[Advantages Over Vanilla JUnit]]<br/>
 [[Advantages Over Guiceberry]]<br/>
+[[Releasing Procedure]]<br/>
