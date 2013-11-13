@@ -19,3 +19,5 @@ If you want to use a jukito SNAPSHOT you will have to include sonatype's reposit
   <layout>default</layout>
 </repository>
 ```
+
+You can also [download jars directly from Maven Central](http://search.maven.org/#search%7Cga%7C1%7Corg.jukito).
