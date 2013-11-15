@@ -11,7 +11,7 @@ The various deployment steps need Maven to know your Google Code credentials. Yo
 <servers>
   ...
   <server>
-    <id>jukito.googlecode.com</id>
+    <id>github.com</id>
     <username>philippe.beaudoin</username>
     <password>0123456789ABCD</password>
   </server>
