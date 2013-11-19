@@ -1,4 +1,5 @@
 Jukito is released on Maven central. If you use Maven you can configure add this dependency:
+Test
 ```
 <dependency>
   <groupId>org.jukito</groupId>
